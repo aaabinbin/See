@@ -1,5 +1,7 @@
 @charset "utf-8";
 /*Css Document*/
+.main { width: 300px; height: auto; padding: 12px 0 12px 0;}
+
 .usershow { border-bottom: 1px solid #ccc; padding-bottom: 15px;}
 .usershow-title { height: 24px; width: 100%;}
 .qiudapei { background-color: #ff8f22; border-radius: 14px; color: white; font-size: 12px; padding: 6px 10px 6px 10px;}

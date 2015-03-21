@@ -18,24 +18,30 @@ a:hover,a:visited { color: #333;}
 .fl { float: left;}
 .fr { float: right;}
 .displayblock { display: block;}
+.fwbold { font-weight: bold;}
 .fwbolder { font-weight: bolder;}
 
-/*字体大小*/
+/*font size*/
 .font12 { font-size: 12px;}
 .font14 { font-size: 14px;}
 .font16 { font-size: 16px;}
+.font44 { font-size: 44px;}
 
-/*字体颜色*/
-.f999 { color: #999;}/*灰色字体*/
-.fa38d00 { color: #a38d00;}/*黄色*/
+/*font color*/
+.ff49b00 { color: #f49b00;}/*orange*/
+.f999 { color: #999;}/*gray*/
+.fa38d00 { color: #a38d00;}/*yellow*/
+.fccc { color: #ccc;}/*gray*/
 .fwhite { color: white;}
 
-/*背景颜色*/
-.bgffd11b { background-color: #ffd11b;}/*黄色*/
+/*background color*/
+.bgc1c1c1 { background-color: #c1c1c1;}/*gray*/
+.bgccc { background-color: #ccc;}/*gray*/
+.bgd8d8d8 { background-color: #d8d8d8;}/*gray*/
+.bgffd11b { background-color: #ffd11b;}/*yellow*/
 .bgwhite { background-color: white;}
 
 body { font-family: "微软雅黑"; font-size: 12px; color: #333; width: 100%; height: auto; background-color: #f1f1f1;}
-.main { width: 300px; height: auto; padding: 12px 0 12px 0;}
 .headshow { width: 24px; height: 24px; margin-right: 3px;}/*这个是用户头像的css*/
 .usershowpic { width: 300px; height: 300px; margin: 10px 0 10px 0; position: relative;}/*这个是用户问题展示图片的css*/
 /*标志*/
