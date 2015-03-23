@@ -5,7 +5,7 @@
 .title { padding: 15px 0;}
 .show { width: 49%; position: relative;}
 .showpic { width: 100%; margin-bottom: 7px; border-radius: 5px;}
-.brand2 { position: absolute; bottom: 15px; left: 4px;}
+.brand2 { position: absolute; bottom: 15px; left: 4px; border-radius: 8px;}
 .show .fwhite { position: absolute; bottom: 16px; left: 26px;}
 .dotout { position: relative; margin-top: 5px;}
 .dotmid { position: absolute; left: 50%;}
@@ -14,6 +14,13 @@
 
 .evedays { margin-top: 15px; }
 .line { width: 38%; height: 1px; margin-top: 6px;}
+.banner { position: relative; margin-top: 10px;}
+.banner .close { width: 20px; height: 20px; background-color: black; border-radius: 10px;
+				 line-height: 16px; position: absolute; right: 5px; top: 5px;
+				 filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity: 0.5;opacity: 0.5;}
+.banner .bannermid { position: absolute; left: 50%; top: 50%;}
+.banner p { position: relative; left: -50%; line-height: 25px; }
+.banner img { border-radius: 5px;}
 .onebrand { background-color: white; margin-top: 15px; border-radius: 5px; padding-bottom: 8px;}
 .onebrand .allpic { position: relative;}
 .onebrand .allpic p { position: absolute; bottom: 10px; left: 10px;}
@@ -35,3 +42,9 @@
 .cirfooter .home { margin-right: 10%;}
 .cirfooter .fr { margin-right: 3%; margin-top: 5px;}
 .cirfooter .mine { margin-left: 10%;}
+
+.zarashowl { width: 66%;}
+.zarashowl img { width: 100%;}
+.zarashowr { width: 32.5%; position: relative;}
+.zarashowr img { width: 100%;}
+.zara3 { position: absolute; bottom: 0px;}
