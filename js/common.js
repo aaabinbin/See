@@ -29,15 +29,13 @@ $(document).ready(function(){
     $(".zarashowr").css("height",_imgheight+"px");
 
 
-    var _height = $("#banner").height();
-    $(window).resize(function(){
-        $("#banner").find("p").css("top",-(_height/4)+"px");
-    });
-    $("#banner").find("p").css("top",-(_height/4)+"px");
+    // var _height = $("#banner").height();
+    // $(window).resize(function(){
+    //     $("#banner").find("p").css("top",-(_height/4)+"px");
+    // });
+    // $("#banner").find("p").css("top",-(_height/4)+"px");
 
-    $("#close").click(function(){
-        $("#banner").css("display","none");
-    });
+    
 
     var u = navigator.userAgent, app = navigator.appVersion;
 	var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //android终端或者uc浏览器
